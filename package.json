@@ -15,8 +15,7 @@
   "bugs": {
     "url": "https://github.com/sturdynut/webpack-starter/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "6.13.2",
     "babel-loader": "6.2.4",
@@ -54,7 +53,7 @@
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
     "surge": "0.18.0",
-    "webpack": "2.1.0-beta.28",
+    "webpack": "2.2.1",
     "webpack-config-utils": "2.0.0",
     "webpack-dev-server": "2.4.1"
   },
