@@ -13,8 +13,8 @@ module.exports = env => {
   const config = {
     context: resolve('src'),
     entry: {
-      app: './bootstrap.js',
-      vendor: ['todomvc-app-css/index.css'],
+      app: './index.js',
+      vendor: ['./vendor.js'],
     },
     output: {
       filename: ifProd('bundle.[name].[chunkhash].js', 'bundle.[name].js'),

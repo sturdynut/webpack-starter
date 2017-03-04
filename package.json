@@ -22,13 +22,9 @@
     "css-loader": "0.23.1",
     "eslint": "3.16.1",
     "eslint-config-standard": "7.0.0",
-    "eslint-config-standard-jsx": "3.3.0",
-    "eslint-config-standard-react": "4.2.0",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-react": "6.10.0",
-    "eslint-plugin-standard": "2.1.1",
     "eslint-loader": "^1.6.3",
-    "eslint-config-kentcdodds": "^9.0.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "2.1.1",
     "extract-text-webpack-plugin": "2.0.0-beta.3",
     "ghooks": "1.3.2",
     "html-webpack-plugin": "2.22.0",
@@ -45,13 +41,13 @@
     "npm-run-all": "2.3.0",
     "offline-plugin": "3.4.2",
     "opt-cli": "1.5.1",
-    "progress-bar-webpack-plugin": "^1.9.3",
+    "progress-bar-webpack-plugin": "1.9.3",
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
     "surge": "0.18.0",
     "webpack": "2.1.0-beta.28",
     "webpack-config-utils": "2.0.0",
-    "webpack-dev-server": "2.1.0-beta.0"
+    "webpack-dev-server": "2.4.1"
   },
   "config": {
     "ghooks": {
