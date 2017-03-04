@@ -3,3 +3,4 @@ node_modules/
 dist
 webpack.config.babel.js
 karma.conf.js
+*.test.js

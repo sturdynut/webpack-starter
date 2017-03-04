@@ -4,7 +4,7 @@ import {install as offlineInstall} from 'offline-plugin/runtime'
 // special thanks to Eric Clemmons: https://github.com/ericclemmons/webpack-hot-server-example
 const reloading = document.readyState === 'complete'
 if (module.hot) {
-  module.hot.accept(function(err) {
+  module.hot.accept(function (err) {
     console.log('❌  HMR Error:', err)
   })
   if (reloading) {
@@ -20,7 +20,7 @@ if (module.hot) {
   bootstrap()
 }
 
-function bootstrap() {
+function bootstrap () {
   console.log('App bootstrapped.')
 
   if (process.env.NODE_ENV === 'production') {
