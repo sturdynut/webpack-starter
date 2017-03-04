@@ -1,5 +1,20 @@
 {
-  "private": true,
+  "name": "webpack-starter",
+  "version": "0.0.1",
+  "description": "A webpack 2 starter that can be used as a base for new projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sturdynut/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Matti Salokangas <matti.salokangas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sturdynut/webpack-starter/issues"
+  },
   "dependencies": {
     "d3": "3.5.17",
     "lodash": "4.14.1",
