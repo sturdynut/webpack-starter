@@ -31,31 +31,32 @@ A webpack 2 starter that can be used as a base for new projects.
 * [Offline Plugin](https://github.com/NekR/offline-plugin)
   * Enables offline access to your web app.
 
-## Source Maps
+### Source Maps
 
-* [Dev Source maps](https://webpack.js.org/configuration/devtool/#for-development) - `eval` for quick builds.
-* [Prod Source maps](https://webpack.js.org/configuration/devtool/#for-production) - `source-map` to ensure source maps are not loaded with your source code.
+* [Dev](https://webpack.js.org/configuration/devtool/#for-development) - `eval` for quick builds.
+* [Prod](https://webpack.js.org/configuration/devtool/#for-production) - `source-map` to ensure source maps are not loaded with your source code.
 
-## Setup
+## Scripts
+
+### Setup
 
 * `npm run setup`
 
-## Development
+### Development
 
 * `npm run dev` - to kick off the webpack-dev-server with HMR
 * `npm run watch:test` - For a TDD experience
 
-## Building
+### Building
 
 * `npm run build` - Builds production bundle
 * `npm run build:dev` - Builds dev bundle
-* `npm run build:dev` - Builds dev bundle
 
-## Serving
+### Serving
 
 * `npm start` - To start up an `http-server` and serve from the `dist` directory.
 
-## Debugging
+### Debugging
 
 Copy / paste the url from the console output into chrome and you are now debugging your webpack config!
 
@@ -65,7 +66,7 @@ Copy / paste the url from the console output into chrome and you are now debuggi
 * `npm start debug:dev`
 * `npm start debug:prod`
 
-## Testing
+### Testing
 
 Testing is setup to run using Karma and provides code coverage reporting.
 
@@ -75,19 +76,25 @@ Testing is setup to run using Karma and provides code coverage reporting.
 This project is setup to use [Karma](https://github.com/karma-runner/karma) for testing in a browser. 
 [Mocha](https://github.com/mochajs/mocha) as the Javascript test framework and [chai](https://github.com/chaijs/chai) for the assertion library
 
-## Linting
+### Linting
 
 Linting is setup using the [eslint](https://github.com/eslint/eslint), you can customize the configuration in `.eslint`.
 
 * `npm run lint` - To lint your code.
 * `npm run validate` - Lints, builds and tests your code.
 
-## Deployment
+### Deployment
 
 * `npm run deploy` - Deploys to [surge.sh](http://surge.sh/).
 
 *Configuration* - To deploy you will need to update the `config/surge` file with your email, token and surge domain.
 
-## Inspiration
+## Thanks
 
-* [https://github.com/kentcdodds/es6-todomvc](https://github.com/kentcdodds/es6-todomvc)
+* [https://github.com/kentcdodds/es6-todomvc]((https://github.com/kentcdodds/es6-todomvc)) 🙏
+
+<div style='text-align:center;padding:30px 0;'>
+  <a style='padding-right: 10px;' href='https://github.com/sturdynut/webpack-starter/blob/master/LICENSE'>LICENSE</a> ∙
+  <a style='padding: 0 10px;' href='https://github.com/sturdynut/webpack-starter/blob/master/CONTRIBUTING.md'>CONTRIBUTING</a> ∙
+  <a style='padding-left: 10px;' href='https://github.com/sturdynut/webpack-starter/blob/master/CHANGELOG.md'>CHANGE LOG</a>
+</div>
